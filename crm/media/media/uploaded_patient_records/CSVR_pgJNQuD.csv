@@ -1,0 +1,2 @@
+input_source,mrn,patient_id,procedure_code,amount,service_date
+test,MRN001,PA001,99213,150.00,2025-08-09

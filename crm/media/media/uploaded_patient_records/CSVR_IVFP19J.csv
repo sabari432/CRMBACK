@@ -1,0 +1,11 @@
+input_source,mrn,patient_id,account_number,visit_number,chart_number,service_date,procedure_code,amount,patient_first_name,patient_last_name,facility
+700,pa312,96682,34405,C16932,CH001,2025-08-31,D1110,125.00,John,Smith,Believe Dental
+700,pa312,96682,34405,C16932,CH001,2025-08-31,D0120,85.00,John,Smith,Believe Dental
+700,pa312,96682,34405,C16932,CH001,2025-08-31,D2160,275.00,John,Smith,Believe Dental
+700,pa312,96682,34405,C16932,CH001,2025-08-31,D4341,180.00,John,Smith,Believe Dental
+700,pa314,23235,83683,C95912,CH002,2025-08-31,D1110,125.00,Jane,Johnson,Party Dental
+700,pa314,23235,83683,C95912,CH002,2025-08-31,D0220,95.00,Jane,Johnson,Party Dental
+700,pa316,33225,38074,C69197,CH003,2025-08-31,D2750,450.00,Mike,Davis,City Dental
+700,pa316,33225,38074,C69197,CH003,2025-08-31,D4210,200.00,Mike,Davis,City Dental
+700,pa316,33225,38074,C69197,CH003,2025-08-31,D1351,75.00,Mike,Davis,City Dental
+700,pa318,31554,10563,C64576,CH004,2025-08-31,D0150,65.00,Sarah,Wilson,Oak Dental

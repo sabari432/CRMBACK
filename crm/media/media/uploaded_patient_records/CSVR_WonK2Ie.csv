@@ -1,0 +1,11 @@
+input_source,mrn,patient_id,account_number,visit_number,chart_number,service_date,procedure_code,amount,patient_last_name,patient_first_name,patient_phone,facility
+700,PA312,96682,34405,V001,C16932,2025-08-31,99213,150.00,Smith,John,555-1234,General Hospital
+700,PA312,96682,34405,V001,C16932,2025-08-31,99214,200.00,Smith,John,555-1234,General Hospital
+700,PA312,96682,34405,V001,C16932,2025-08-31,99215,250.00,Smith,John,555-1234,General Hospital
+700,PA312,96682,34405,V001,C16932,2025-08-31,99216,300.00,Smith,John,555-1234,General Hospital
+700,PA313,23235,83683,V002,C95912,2025-08-31,99213,150.00,Johnson,Mary,555-5678,General Hospital
+700,PA313,23235,83683,V002,C95912,2025-08-31,99214,200.00,Johnson,Mary,555-5678,General Hospital
+700,PA314,33225,38074,V003,C69197,2025-08-31,99215,250.00,Williams,David,555-9012,General Hospital
+700,PA314,33225,38074,V003,C69197,2025-08-31,99216,300.00,Williams,David,555-9012,General Hospital
+700,PA314,33225,38074,V003,C69197,2025-08-31,99217,350.00,Williams,David,555-9012,General Hospital
+700,PA315,31554,10563,V004,C64576,2025-08-31,99213,150.00,Brown,Sarah,555-3456,General Hospital

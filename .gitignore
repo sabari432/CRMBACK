@@ -1,0 +1,23 @@
+# Create/update .gitignore
+@"
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.idea/
+*.iml
+
+# Virtual environment
+venv/
+
+# Build folders
+build/
+# Logs
+logs/
+activity_logs/
+
+# Docs build
+docs/_build/
+"@ | Set-Content -Path .gitignore

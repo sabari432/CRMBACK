@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload CSV</title>
+</head>
+<body>
+    <h1>Upload CSV File</h1>
+    <form action="{% url 'upload_csv' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="file" accept=".csv">
+        <button type="submit">Upload</button>
+    </form>
+
+    <h2>Patient Records</h2>
+    <div id="records-container"></div>
+    <script>
+        async function loadRecords(page=1) {
+            const response = await fetch(`/records/?page=${page}`);
+            const data = await response.json();
+
+            const container = document.getElementById('records-container');
+            container.innerHTML = `
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>MRN</th>
+                            <th>Patient ID</th>
+                            <th>Patient Name</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${data.results.map(record => `
+                            <tr>
+                                <td>${record.MRN}</td>
+                                <td>${record.Patient_ID}</td>
+                                <td>${record.Patient_First} ${record.Patient_Last}</td>
+                                <td><a href="/records/${record.id}/" target="_blank">View</a></td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+                <div>
+                    <button onclick="loadRecords(${data.previous ? page - 1 : page})" ${!data.previous ? 'disabled' : ''}>Previous</button>
+                    <button onclick="loadRecords(${data.next ? page + 1 : page})" ${!data.next ? 'disabled' : ''}>Next</button>
+                </div>
+            `;
+        }
+
+        loadRecords();
+    </script>
+</body>
+</html>

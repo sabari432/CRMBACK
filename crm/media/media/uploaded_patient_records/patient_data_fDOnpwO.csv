@@ -1,0 +1,3 @@
+input_source,mrn,patient_id,account_number,visit_number,chart_number,service_date,current_billed_payer_name
+as,mrn1,pa311,57083,47680,C13726,31-08-2025,Blake Ltd
+ass,mrn7,pa319,57089,47689,C13799,01-09-2025,Blake Ltd

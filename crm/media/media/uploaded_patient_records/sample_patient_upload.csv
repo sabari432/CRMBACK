@@ -1,0 +1,4 @@
+input_source,mrn,patient_id,account_number,visit_number,chart_number
+system1,MRN001,PID001,ACCT001,VIS001,CH001
+system2,MRN002,PID002,ACCT002,VIS002,CH002
+system3,MRN003,PID003,ACCT003,VIS003,CH003

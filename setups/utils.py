@@ -1,0 +1,45 @@
+
+mapping_db_headers = [
+    "input_source", "mrn", "patient_id", "account_number", "visit_number",
+    "chart_number", "project_key", "facility", "facility_type",
+    "patient_last_name", "patient_first_name", "patient_phone", "patient_address",
+    "patient_city", "patient_state", "patient_zip", "patient_birthday",
+    "patient_gender", "subscriber_last_name", "subscriber_first_name",
+    "subscriber_relationship", "subscriber_phone", "subscriber_address",
+    "subscriber_city", "subscriber_state", "subscriber_zip", "subscriber_birthday",
+    "subscriber_gender", "current_billed_financial_class", "current_billed_payer_name",
+    "member_id_current_billed_payer", "group_number_current_billed_payer",
+    "current_billed_relationship", "cob", "payer_id_current_billed_payer",
+    "timely_filing_limit", "appeal_limit", "primary_payer_financial_class",
+    "primary_payer_name", "member_id_primary_payer", "group_number_primary_payer",
+    "relationship_primary_payer", "cob_primary", "payer_id_primary_payer",
+    "secondary_payer_financial_class", "secondary_payer_name",
+    "member_id_secondary_payer", "group_number_secondary_payer",
+    "relationship_secondary_payer", "cob_secondary", "payer_id_secondary_payer",
+    "tertiary_payer_financial_class", "tertiary_payer_name",
+    "member_id_tertiary_payer", "group_number_tertiary_payer",
+    "relationship_tertiary_payer", "cob_tertiary", "payer_id_tertiary_payer",
+    "auth_number", "claim_number", "facility_code", "claim_frequency_type",
+    "signature", "assignment_code", "assign_certification", "release_info_code",
+    "service_date", "van_trace_number", "rendering_provider_id", "taxonomy_code",
+    "procedure_code", "amount", "procedure_count", "tooth_code", "procedure_code2",
+    "amount2", "procedure_count2", "tooth_code2", "procedure_code3", "amount3",
+    "procedure_count3", "tooth_code3", "procedure_code4", "amount4",
+    "procedure_count4", "tooth_code4", "dx1", "dx2", "dx3", "dx4", "dx5", "dx6",
+    "total_charged", "check_number", "insurance_balance", "patient_balance",
+    "contract_name", "division", "type_of_service", "claim_denial_date",
+    "claim_denial_code", "claim_denial_description", "latest_pay_date",
+    "latest_pay_amount", "claim_priority", "provider_name", "provider_npi",
+    "provider_location", "last_claim_status_check_date", "last_ev_check_date",
+    "last_ins_disc_check_date", "under_pay"
+]
+
+auto_mapping_db_headers = [
+    "current_queue", "queue_days", "latest_action_date", "next_follow_up_before",
+    "category", "sub_category", "status", "action", "assigned_to",
+    "project_id", "organization_id", "allocation_fresh", "allocation_allocated",
+    "allocation_worked", "session_user", "allocated_date", "worked_date",
+    "ageing_bucket", "allocation_status", "allocated_to", "hold_status",
+    "hold", "review_status", "review_by", "executive_status", "executive_bin",
+    "created_at"
+]

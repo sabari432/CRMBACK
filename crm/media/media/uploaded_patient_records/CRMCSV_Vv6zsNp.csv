@@ -1,0 +1,6 @@
+input_source,mrn,patient_id,account_number,visit_number,chart_number,service_date
+as,mrn1,pa311,57083,47680,C13726,2025-08-31
+final,mrn2,pa312,96682,34405,C16932,2025-08-31
+believe,mrn3,pa313,23235,83683,C95912,2025-08-31
+party,mrn4,pa314,33225,38074,C69197,2025-08-31
+ok,mrn5,pa315,31554,10563,C64576,2025-08-31

@@ -1,0 +1,3 @@
+input_source,mrn,patient_id,account_number,visit_number,chart_number,service_date,procedure_code
+final,700,pa312,96682,34405,C16932,31-08-2025,123
+final,700,pa312,31554,10563,C64576,31-08-2025,901
